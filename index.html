@@ -18,19 +18,19 @@
     <header>
        <h1 id="title">Caleb Faris</h1>
       <a href="index.html">
-        <img src="images/acmelogo.png" alt="The Acme Consulting, Inc. Logo">
+        <img src="images/acmelogo.png" alt="Headshot of Caleb">
       </a>
     </header>
 
     <!-- new section for <nav>, which contains <ul> and <li> elements -->
     <nav>
       <ul>
-        <li><a href="about.html">product 1</a></li>
-        <li><a href="career.html">product 2</a></li>
-        <li><a href="blog.html">product 3</a></li>
-        <li><a href="gallery.html">product 3</a></li>
-        <li><a href="library.html">product 3</a></li>
-        <li><a href="contact.html">product 3</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="library.html">Library</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
@@ -44,8 +44,9 @@
         <article> element is in its own <section>. In practice, this might be
         redundant; that is, you can either use an <article> or a <section>
         element and may not need both. -->
-        <article id="main_article">
+        <article id="blog_block">
 
+        <h1>RECENT POST</h1>
         Practimsit amet, consectetur adipiscing elit.
         Mauris consequat tortor lorem, quis finibus purus placerat
         vitae. Aenean phar<li><a href="product1.html">product 1</a></li>
@@ -92,26 +93,39 @@
 
       </section>
 
-      <section id="secondary">
+      <section id="gallery_block">
 
-        <article id="sub_article">
+        <article id="gallery_article">
 
-        <h3>Curabitur dignissim</h3>
+        <h1>GALLERY</h1>
 
-        <p>Curabitur dignissim nulla neque, sit amet ultricies mi
-        ultrices at. Morbi eget lorem imperdiet, fringilla massa a,
-        placerat magna. Ut sed ligula a massa pharetra viverra.
-        Mauris sodales tincidunt gravida. Cras finibus lacus eget
-        iaculis bibendum. Phasellus ligula dui, ultrices at mauris
-        congue, accumsan tempus leo. Integer gravida felis at arcu
-        pharetra porta. Phasellus rhoncus magna vitae lorem
-        egestas, et tempor nunc posuere. Nulla sagittis justo sit
-        amet nunc rhoncus venenatis. Vivamus ante quam, maximus at
-        lorem eget, porta tristique dui. Nulla non porta elit, quis
-        commodo tortor. Nulla ac eros eu sapien ullamcorper
-        faucibus. Nullam sodales vehicula risus, id malesuada dolor
-        fermentum non. Nulla tempus cursus risus, eu fermentum dui
-        commodo quis.</p>
+        <figure id="gallery_image">
+          <img src="images/gallery_image.jpg"
+         alt="Image of people's feet gathered in a circle to meet."
+         title="Image of people's feet gathered in a circle to meet.">
+         <figcaption>
+         <a href="https://www.flickr.com/photos/56218409@N03/20289439705">Photo by Dr. Matthias Ripp</a>
+         </figcaption>
+       </figure>
+
+        </article>
+
+      </section>
+
+      <section id="reading_block">
+
+        <article id="reading_article">
+
+        <h1>CURRENT READ</h1>
+
+        <figure id="main_book">
+          <img src="images/book_cover.jpg"
+         alt="Image of people's feet gathered in a circle to meet."
+         title="Image of people's feet gathered in a circle to meet.">
+         <figcaption>
+         <a href="https://www.flickr.com/photos/56218409@N03/20289439705">Photo by Dr. Matthias Ripp</a>
+         </figcaption>
+       </figure>
 
         </article>
 
